@@ -6,7 +6,7 @@ function Card(props) {
     
 				//здесь мы берем конкретные свойства, которые будут задаваться 
 				//при вызове этого компонента
-				const {title, price, description, alterego, work, imgLink} = props;
+				const {title, description, alterego, work, imgLink} = props;
         return (
             <div className="card">
                 <div className="card-body">
