@@ -1,0 +1,20 @@
+.card-body{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(24, 24, 24);
+    width: 300px;
+
+}
+
+.card{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.card-title{
+    color: #365472;
+    text-align: center;
+    
+}
+
