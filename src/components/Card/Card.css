@@ -3,13 +3,15 @@
     flex-direction: column;
     border: 2px solid rgb(24, 24, 24);
     width: 300px;
+    height: 700px;
 
 }
 
 .card{
   display: flex;
-  flex-direction: row;
-  width: 100%;
+  flex-direction:column;
+  width: fit-content;
+  
 }
 
 .card-title{
@@ -18,3 +20,6 @@
     
 }
 
+.card-text{
+  color: #2a2462;
+}

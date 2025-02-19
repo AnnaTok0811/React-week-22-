@@ -4,7 +4,7 @@ import Card from "./Card/Card";
 
 function CardList() {
     return (
-        <React.Fragment>
+        <div className="container">
             <Card
                 title="Харли Квин"
                 imgLink="https://i.pinimg.com/736x/5a/54/08/5a54086a92eac2dfb6102d40fa8f2855.jpg"
@@ -28,7 +28,15 @@ function CardList() {
                 work="Борец за справедливость"
 
             />
-        </React.Fragment>
+            <Card
+                title="Дэдпул"
+                imgLink="https://i.pinimg.com/736x/c9/b2/65/c9b26536fafe94cd7aa6f77e26447635.jpg"
+                description="Marvel"
+                alterego="Уэйд Уи́лсон"
+                work="Наёмный убийца"
+
+            />
+        </div>
     );
 }
 

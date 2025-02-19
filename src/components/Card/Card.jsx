@@ -1,5 +1,5 @@
-import React from "react";
-import './Card.css'
+import PropTypes from 'prop-types';
+import './Card.css';
 
 
 function Card(props) {
@@ -21,5 +21,5 @@ function Card(props) {
         );
     
 }
-
-export default Card
+Card.propsTypes={title:PropTypes.string};
+export default Card;
